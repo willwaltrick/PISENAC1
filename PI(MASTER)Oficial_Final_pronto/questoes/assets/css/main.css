@@ -1,0 +1,178 @@
+<style type="text/css">
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headline {
+    padding: 120px 0;
+}
+
+.headline h1 {
+    font-size: 300px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.headline h2 {
+    font-size: 77px;
+    background: #fff;
+
+}
+
+.featurette-divider {
+    margin: 25px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 100px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 50px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+.featurette-image2{
+  margin-top: 50px;
+}
+
+.col-md-9{
+    position: relative;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+
+.p{font-weight:900;
+  color:#FFFFFF !important;
+  font-family: roboto;
+  }
+
+h4{
+  font-weight:900;
+  color:#FFFFFF !important;
+  font-family: roboto;
+  }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #385965;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 50px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  color: #000 ;
+  font-size: 150%;
+  padding: 10px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/*------------ */
+
+.navbar-inverse {
+    background-color: #385965 ;
+    border-color: #000  ;
+    color:#FFFFFF !important;
+    font-family: roboto;
+    font-size: 150%;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.p{font-weight:900;
+  color:#FFFFFF !important;
+  font-family: roboto;
+  }
+
+@media(min-width:768px) {
+    body {
+        padding-top: 0px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+/*-----------------------------------*/
+
+label,  input {
+    display: block;
+    float: left;
+}
+
+label { 
+    text-align: right;
+    width: 85px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+br {
+    clear: left;
+}
+
+</style>
